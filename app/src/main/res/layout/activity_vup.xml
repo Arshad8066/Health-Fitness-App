@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SideLyingLeg">
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/v_up_gif"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+
+        android:layout_marginTop="72dp"
+        android:src="@drawable/v_ups"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_vups"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Lie on your back with your arms and legs
+extends and your legs squeezed together.\n
+\n
+Raise your upper body and legs, use your
+arms to touch your toes, then go back to
+the start position and repeat the exercise.
+"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/v_up_gif"
+        app:layout_constraintVertical_bias="0.467" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Wide_Arm_pushups">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/curtsy_lunges_gif"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+
+        android:src="@drawable/curtsy_lunges"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.068" />
+
+
+    <TextView
+        android:id="@+id/tvcurtsy_lunges"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:text="Stand straight up. Then step back with your
+left leg to the right, and bend your knees at the
+same time.\n
+\n
+Go back to the start position and switch to
+the other side.
+"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/curtsy_lunges_gif"
+        app:layout_constraintVertical_bias="0.467" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

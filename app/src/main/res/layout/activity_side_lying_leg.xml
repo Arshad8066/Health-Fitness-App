@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SideLyingLeg">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/side_lying_leg_gif"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+
+        android:src="@drawable/side_lying_leg_lift"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.068" />
+
+
+
+    <TextView
+        android:id="@+id/tvside_lying_leg_lift"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Lie down on your side with your hand rested on
+        your right arm.Lift your upper leg up and return
+        to the start position.\n
+        \n
+Make sure your left leg goes straight up and
+down during the exercise.\n
+\n
+It's a great exercise for the glutus.
+"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/side_lying_leg_gif"
+        app:layout_constraintVertical_bias="0.467" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

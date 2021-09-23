@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SideLyingLeg">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/spiderman_push_up_gif"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+
+        android:src="@drawable/spiderman_push_ups"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.068" />
+
+
+
+    <TextView
+        android:id="@+id/tvspiderman_push_ups"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="start in the regular push-up position.when
+lowering your torso downward, bend and
+lift one leg to the side.\n
+\n
+Then return to the start position and
+switch to the other leg\n
+\n
+Remember to keep your body straigth.
+"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spiderman_push_up_gif"
+        app:layout_constraintVertical_bias="0.467" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

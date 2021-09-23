@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ravi.firebaseone">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FireBaseOne">
+        <activity android:name=".bmiactivity"></activity>
+        <activity android:name=".Bmicalculator" />
+        <activity android:name=".Activities.Rating.RatingActivity" />
+        <activity
+            android:name=".Activities.Drawer.DrawerActivity"
+            android:label="@string/title_activity_drawer"
+            android:theme="@style/Theme.FireBaseOne.NoActionBar" />
+        <activity android:name=".CalfStretchLeft" />
+        <activity android:name=".GluteKickBackRight" />
+        <activity android:name=".JumpingSquats" />
+        <activity android:name=".CurtsyLunges" />
+        <activity android:name=".Leg_Advanced" />
+        <activity android:name=".SpidermanPushup" />
+        <activity android:name=".BoxPushup" />
+        <activity android:name=".DiamondPushup" />
+        <activity android:name=".Burpees" />
+        <activity android:name=".Chest_Advanced" />
+        <activity android:name=".ButtBridge" />
+        <activity android:name=".VUp" />
+        <activity android:name=".BicycleCrunches" />
+        <activity android:name=".SitUp" />
+        <activity android:name=".Abs_Advanced" />
+        <activity android:name=".Chest_beginner" />
+        <activity android:name=".BackwardLunge" />
+        <activity android:name=".SideLyingLeg" />
+        <activity android:name=".Squats" />
+        <activity android:name=".SideHop" />
+        <activity android:name=".Leg_beginner" />
+        <activity android:name=".ChestStretch" />
+        <activity android:name=".CobraStretch" />
+        <activity android:name=".KneePushups" />
+        <activity android:name=".TricepsDips" />
+        <activity android:name=".Wide_Arm_pushups" />
+        <activity android:name=".InclinePushups" />
+        <activity android:name=".Plank" />
+        <activity android:name=".Legraises" />
+        <activity android:name=".Mountainclimber" />
+        <activity android:name=".RussianTwist" />
+        <activity android:name=".AbdominalCrunches" />
+        <activity android:name=".Jumpingjack" />
+        <activity android:name=".Abs_beginner" />
+        <activity android:name=".Strength" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Activities.HomeActivity" />
+        <activity android:name=".Activities.RegisterActivity" />
+        <activity android:name=".Activities.LoginActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
